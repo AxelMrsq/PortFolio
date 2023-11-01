@@ -1,0 +1,25 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a dark background color to the body */
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    padding: 1rem;
+    background-color: #fffcf2;
+}
+
+.profilPhoto {
+    margin-right: 10%;
+    width: 100px;
+    height: 125px;
+    border-radius: 3px;
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+}
+
+
+ 
