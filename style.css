@@ -9,10 +9,10 @@ body, h1, h2, p,a{
     text-decoration: none;
 }
 header{
-    padding: 1rem;
+    padding: 3rem;
     display: flex;
     color:#fffffe;
-    justify-content: space-evenly
+    justify-content: space-between;
     align-items: center;
 }
 
