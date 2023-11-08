@@ -8,6 +8,9 @@ body, h1, h2, p,a{
     padding: 0;
     text-decoration: none;
 }
+a {
+  color:#94a1b2;
+}
 header{
     padding: 3rem;
     display: flex;
@@ -36,3 +39,22 @@ header{
       transform: translateX(0);
     }
   }
+
+  .arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #fffffe;
+  }
+
+  .ligne-blanche {
+    border: 0.25rem solid #fffffe; /* Crée un trait blanc de 1 pixel de large en dessous de l'élément */
+    border-radius: 5px;
+    height: 1350px;
+}
+
+.block {
+  background-color: #94a1b2;
+  width: 500px;
+}
