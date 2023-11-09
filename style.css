@@ -40,21 +40,4 @@ header{
     }
   }
 
-  .arrow {
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 20px solid #fffffe;
-  }
-
-  .ligne-blanche {
-    border: 0.25rem solid #fffffe; /* Crée un trait blanc de 1 pixel de large en dessous de l'élément */
-    border-radius: 5px;
-    height: 1350px;
-}
-
-.block {
-  background-color: #94a1b2;
-  width: 500px;
-}
+ 
