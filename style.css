@@ -1,6 +1,5 @@
 /* Reset some default browser styles */
 html {
-    background-color: #16161a;
     font-family: Arial, Helvetica, sans-serif;
 }
 body, h1, h2, p,a{
@@ -11,7 +10,11 @@ body, h1, h2, p,a{
 a {
   color:#94a1b2;
 }
-header{
+.presentation {
+  background-color: #16161a;
+  height: 450px;
+}
+.header{
     padding: 3rem;
     display: flex;
     color:#fffffe;
@@ -40,4 +43,9 @@ header{
     }
   }
 
- 
+.ecole {
+  background-color: #72757e;
+  height: 450px;
+  color: #fffffe;
+
+}
