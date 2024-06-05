@@ -14,7 +14,7 @@ body {
 
 .terminal {
     
-    background-image: url('/site/images/terminal.jpg');
+    background-image: url('images/terminal.jpg');
     background-size: cover;
     background-position: top center;
     color: #43DB45;
@@ -52,14 +52,14 @@ body {
 
 
   
-  .wrap {
+   .wrap2 {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  } 
   
-  .button {
+   .button {
     min-width: 150px;
     min-height: 60px;
     font-family: 'Nunito', sans-serif;
@@ -77,9 +77,9 @@ body {
     outline: none;
     position: relative;
     
-    }
+    } 
   
-  button::before {
+   button::before {
   content: '';
     border-radius: 1000px;
     min-width: calc(150px + 12px);
@@ -90,18 +90,18 @@ body {
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: all .3s ease-in-out 0s;
-  }
+  } 
   
-  .button:hover, .button:focus {
+   .button:hover, .button:focus {
     color: #313133;
     transform: translateY(-6px);
-  }
+  } 
   
-  button:hover::before, button:focus::before {
+   button:hover::before, button:focus::before {
     opacity: 1;
-  }
+  } 
   
-  button::after {
+   button::after {
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
@@ -112,13 +112,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     animation: ring 1.5s infinite;
-  }
+  } 
   
-  button:hover::after, button:focus::after {
+   button:hover::after, button:focus::after {
     animation: none;
     display: none;
-  }
-  
+  } 
+ 
   @keyframes ring {
     0% {
       width: 15px;
@@ -129,7 +129,7 @@ body {
       width: 100px;
       height: 100px;
       opacity: 0;
-    }
+    } 
   }
 
   .btnHire {
@@ -168,4 +168,27 @@ body {
     border-color: black; /* Couleur de surbrillance lors du survol */
     box-shadow: 0 16px 30px black;
     cursor: default;
+}
+
+
+.scroll {
+  color: aliceblue;;
+  position: relative;
+  text-decoration: none;
+}
+
+.scroll::before {
+  background: hsl(45 100% 70%);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.scroll:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
 }
