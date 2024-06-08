@@ -54,3 +54,6 @@ var TxtRotate = function(el, toRotate, period) {
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #43DB45 }";
     document.body.appendChild(css);
   };
+
+  // Loop the animation
+setInterval(draw, 33);
