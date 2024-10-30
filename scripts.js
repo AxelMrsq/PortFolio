@@ -32,5 +32,16 @@ document.addEventListener('DOMContentLoaded', () => {
             input.value = '';
         }
     });
+
+    // Ajouter un événement focusout pour gérer le clic sur "Done"
+    input.addEventListener('focusout', () => {
+        const command = input.value.trim();
+        if (command) {
+            displayCommand(command);
+            input.value = '';
+        }
+    });
 });
+
+
 

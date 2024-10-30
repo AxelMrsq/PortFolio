@@ -9,6 +9,9 @@ body {
 a {
     color: #f8f8f2;
 }
+
+
+
 .terminal {
     background-color: #1e1e1e;
     border-radius: 5px;
@@ -32,7 +35,6 @@ a {
     display: flex;
     gap: 5px;
 }
-
 .button {
     width: 12px;
     height: 12px;
@@ -81,6 +83,11 @@ a {
     font-size: 16px;
 }
 
+
+
+
+
+
 section {
     width: 80%;
     max-width: 800px;
@@ -127,4 +134,11 @@ section h2 {
     #terminal-input {
         font-size: 12px;
     }
+}
+
+@media (max-width: 400px) {
+    .terminal, section {
+        font-size: 10px;
+    }
+    
 }
